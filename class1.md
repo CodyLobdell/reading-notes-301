@@ -1,56 +1,64 @@
-Class 1 Notes
+>> Readings: Introduction to React and Components <<
 
-HTML, CSS and JAVASCRIPT are three basics which are essential to make a website. The better understanding of the proper dialect ensures a satisfactory and credible finsihed product.
+Below you will find some reading material, code samples, and some additional resources that support the topic for this class and the upcoming lecture.
 
-HTML Text Fundamentals. HTML Advanced Text Formatting.
+Review the Submission Instructions for guidance on completing and submitting this assignment.
 
-1.-The semantic HTML tags help the search engines and other user devices to determine the importance and context of web pages. The pages made with semantic elements are much easier to read. Greater accessibility and offers better user experience.
+Reading
 
-2.-Six levels
 
-3.-You will occasionally need to use superscript and subscript when marking up items like dates, chemical formulae, and mathematical equations so they have the correct meaning.
+ >> Component-Based Architecture
 
-4.-The title attribute
+1. What is a “component”?
+	- A component is a modular, portable, replaceable, and reusable set of well-defined functionality that encapsulates its implementation and exporting it as a higher-level interface.
 
-How CSS Is Structured.
+	- A component is a software object, intended to interact with other components, encapsulating certain functionality or a set of functionalities. It has an obviously defined interface and conforms to a recommended behavior common to all components within an architecture.
 
-1.-CSS can be applied to HTML or XHTML using three methods: linked, embedded, and inline.
+	- A software component can be defined as a unit of composition with a contractually specified interface and explicit context dependencies only. That is, a software component can be deployed independently and is subject to composition by third parties.
 
-2.-Inline lacks support (or it has really poor support) for CSS features.
+2. What are the characteristics of a component?
+	Reusability − Components are usually designed to be reused in different situations in different applications. However, some components may be designed for a specific task.
 
-3.- a.- h2 b.-color padding c.-black 5px
+	Replaceable − Components may be freely substituted with other similar components.
 
-Learn JS
+	Not context specific − Components are designed to operate in different environments and contexts.
 
-1.- String
+	Extensible − A component can be extended from existing components to provide new behavior.
 
-2.-Addition (+) -Subtraction (-), Multiplication (*), division (/) -Assignment (=) -Strict equality (===)
+	Encapsulated − A A component depicts the interfaces, which allow the caller to use its functionality, and do not expose details of the internal processes or any internal variables or state.
 
-3.- Supply and demand prices
+	Independent − Components are designed to have minimal dependencies on other components.
 
-Making Decisions In Your Code – Conditionals.
+3. What are the advantages of using component-based architecture?
+	Ease of deployment − As new compatible versions become available, it is easier to replace existing versions with no impact on the other components or the system as a whole.
 
-1.- condition , true
+	Reduced cost − The use of third-party components allows you to spread the cost of development and maintenance.
 
-2.-Use the else if statement to specify a new condition if the first condition is false.
+	Ease of development − Components implement well-known interfaces to provide defined functionality, allowing development without impacting other parts of the system.
 
-3.- < (less than), > (greater than), <= (less than or equal), and >= (greater than or equal)
+	Reusable − The use of reusable components means that they can be used to spread the development and maintenance cost across several applications or systems.
 
-4.- && is used to perform and operation means if anyone of the expression/condition evaluates to false whole thing is false. || is used to perform or operation if anyone of the expression/condition evaluates to true whole thing becomes true. so it continues till the end to check atleast one condition to become true.
+	Modification of technical complexity − A component modifies the complexity through the use of a component container and its services.
 
-Things I want to know more about
-"h1" styles carries over to the body
+	Reliability − The overall system reliability increases since the reliability of each individual component enhances the reliability of the whole system via reuse.
 
-The
+	System maintenance and evolution − Easy to change and update the implementation without affecting the rest of the system.
 
-to
-HTML elements represent six levels of section headings ie. header
-no spaces with fonts wihtin the headings
+	Independent − Independency and flexible connectivity of components. Independent development of components by different group in parallel. Productivity for the software development and future software development.
 
-script always afteer the footer (before closing body tag)
 
--inline internal styles
 
-CLASS 3, 6+7, AND 14 WILL BE DIFFICULT
+ >> What is Props and How to Use it in React
 
-only git add specific files not add all
+1. What is “props” short for?
+	- “Props” is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
+
+2. How are props used in React?
+	- Data with props are being passed in a uni-directional flow. (one way from parent to child)
+
+Furthermore, props data is read-only, which means that data coming from the parent should not be changed by child components.
+
+3. What is the flow of props?
+	- Define an attribute and its value(data)
+	- Then pass it to child component(s) by using Props
+	- Finally, render the Props Data
